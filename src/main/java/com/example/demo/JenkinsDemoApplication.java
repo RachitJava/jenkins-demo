@@ -13,7 +13,7 @@ public class JenkinsDemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String hello() {
-		return "Hello Sabre-Infosys Team Its Tuesday";
+		return "Hello Sabre-Infosys Team Its openshift demo";
 	}
 
 	public static void main(String[] args) {
